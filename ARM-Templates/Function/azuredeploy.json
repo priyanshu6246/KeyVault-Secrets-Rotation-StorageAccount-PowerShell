@@ -166,7 +166,7 @@
                         "[resourceId('Microsoft.Web/Sites', parameters('functionAppName'))]"
                     ],
                     "properties": {
-                        "RepoUrl": "https://github.com/Azure/KeyVault-Secrets-Rotation-StorageAccount-PowerShell.git",
+                        "RepoUrl": "https://github.com/priyanshu6246/KeyVault-Secrets-Rotation-StorageAccount-PowerShell.git",
                         "branch": "main",
                         "IsManualIntegration": true
                     }
