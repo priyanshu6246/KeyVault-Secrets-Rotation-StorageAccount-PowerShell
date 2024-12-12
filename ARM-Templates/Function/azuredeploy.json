@@ -300,7 +300,7 @@
                             "apiVersion": "2018-09-01-preview",
                             "name": "[concat(variables('functionStorageAccountName'), '/Microsoft.Authorization/', guid(concat(variables('functionStorageAccountName'),'RoleAssignment2', reference(resourceId('Microsoft.Web/sites', parameters('functionAppName')), '2019-08-01', 'Full').identity.principalId)))]",
                             "properties": {
-                                "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', 'b7e6dc6d-f1e8-4753-8033-0f276b8e5647')]", 
+                                "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '17d1049b-9a84-46fb-8f53-869881c3d3ab')]", 
                                 "principalId": "[reference(resourceId('Microsoft.Web/sites', parameters('functionAppName')), '2019-08-01', 'Full').identity.principalId]"
                             }
                         },
@@ -309,7 +309,7 @@
                             "apiVersion": "2018-09-01-preview",
                             "name": "[concat(variables('functionStorageAccountName'), '/Microsoft.Authorization/', guid(concat(variables('functionStorageAccountName'),'RoleAssignment3', reference(resourceId('Microsoft.Web/sites', parameters('functionAppName')), '2019-08-01', 'Full').identity.principalId)))]",
                             "properties": {
-                                "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '2a2b9908-6ea1-4ae2-8e65-a410df84e7d1')]", 
+                                "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', 'b7e6dc6d-f1e8-4753-8033-0f276bb0955b')]", 
                                 "principalId": "[reference(resourceId('Microsoft.Web/sites', parameters('functionAppName')), '2019-08-01', 'Full').identity.principalId]"
                             }
                         },
@@ -318,7 +318,7 @@
                             "apiVersion": "2018-09-01-preview",
                             "name": "[concat(variables('functionStorageAccountName'), '/Microsoft.Authorization/', guid(concat(variables('functionStorageAccountName'),'RoleAssignment4', reference(resourceId('Microsoft.Web/sites', parameters('functionAppName')), '2019-08-01', 'Full').identity.principalId)))]",
                             "properties": {
-                                "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '81a9662b-bebf-436f-a333-f67b29880f12')]", 
+                                "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '974c5e8b-45b9-4653-ba55-5f855dd0fb88')]", 
                                 "principalId": "[reference(resourceId('Microsoft.Web/sites', parameters('functionAppName')), '2019-08-01', 'Full').identity.principalId]"
                             }
                         }                        
