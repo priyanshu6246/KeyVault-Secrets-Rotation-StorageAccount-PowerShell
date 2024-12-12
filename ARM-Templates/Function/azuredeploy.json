@@ -93,7 +93,13 @@
                 "name": "Standard_LRS",
                 "tier": "Standard"
             },
-            "kind": "Storage"
+            "kind": "Storage",
+            "properties": {
+                "supportsHttpsTrafficOnly": true,
+                "allowBlobPublicAccess": false,
+                "minimumTlsVersion": "TLS1_2",
+                "disableSharedKeyAccess": true
+            }
         },
         {
             "type": "Microsoft.Web/serverfarms",
