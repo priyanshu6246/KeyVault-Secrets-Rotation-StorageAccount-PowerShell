@@ -133,10 +133,6 @@
                 "siteConfig": {
                     "appSettings": [
                         {
-                            "name": "AzureWebJobsStorage",
-                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', variables('functionStorageAccountName'), ';AccountKey=', listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('functionStorageAccountName')), '2019-06-01').keys[0].value)]"
-                        },
-                        {
                             "name": "FUNCTIONS_EXTENSION_VERSION",
                             "value": "~4"
                         },
@@ -146,8 +142,12 @@
                         },
                         {
                             "name": "AzureWebJobsStorage__accountname",
-                            "value": "parameters('functionAppName')"
+                            "value": "[parameters('functionAppName')]"
                         },
+                        {
+                            "name": "WEBSITE_RUN_FROM_PACKAGE",
+                            "value": "1"
+                        }
                         {
                             "name": "WEBSITE_NODE_DEFAULT_VERSION",
                             "value": "~18"
