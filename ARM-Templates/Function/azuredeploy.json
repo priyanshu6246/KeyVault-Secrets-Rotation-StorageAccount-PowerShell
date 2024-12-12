@@ -142,7 +142,7 @@
                         },
                         {
                             "name": "AzureWebJobsStorage__accountname",
-                            "value": "[parameters('functionAppName')]"
+                            "value": "[variables('functionStorageAccountName')]"
                         },
                         {
                             "name": "WEBSITE_RUN_FROM_PACKAGE",
