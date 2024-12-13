@@ -138,14 +138,6 @@
                             "value": "powershell"
                         },
                         {
-                            "name": "AzureWebJobsStorage__accountName",
-                            "value": "[variables('functionStorageAccountName')]"
-                        },
-                        {
-                            "name": "WEBSITE_RUN_FROM_PACKAGE",
-                            "value": "1"
-                        },
-                        {
                             "name": "WEBSITE_NODE_DEFAULT_VERSION",
                             "value": "~18"
                         },
