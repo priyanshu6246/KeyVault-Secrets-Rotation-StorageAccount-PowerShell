@@ -94,9 +94,6 @@
                 "tier": "Standard"
             },
             "kind": "Storage",
-            "properties": {
-                "allowSharedKeyAccess": false
-            }
         },
         {
             "type": "Microsoft.Web/serverfarms",
