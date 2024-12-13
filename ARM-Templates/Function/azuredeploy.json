@@ -93,7 +93,7 @@
                 "name": "Standard_LRS",
                 "tier": "Standard"
             },
-            "kind": "Storage",
+            "kind": "Storage"
         },
         {
             "type": "Microsoft.Web/serverfarms",
