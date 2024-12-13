@@ -141,7 +141,7 @@
                             "value": "powershell"
                         },
                         {
-                            "name": "AzureWebJobsStorage__accountname",
+                            "name": "AzureWebJobsStorage__accountName",
                             "value": "[variables('functionStorageAccountName')]"
                         },
                         {
